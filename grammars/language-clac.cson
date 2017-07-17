@@ -1,0 +1,36 @@
+'scopeName': 'source.clac'
+'name': 'Clac'
+'fileTypes': [ 'clac' ]
+'patterns': [
+	{
+		'comment': 'comment(fake)'
+		'name': 'comment.multi-line.clac'
+		'begin': '(?<=\\s|^):\\s+//'
+		'end': '(?<=\\s|^)(;)(?=\\s|$)'
+	}
+
+	{
+		'comment': 'builtin operators'
+		'name': 'support.function.entity.name.tag.clac'
+		'match': '(?<=\\s|^)(print|quit|drop|swap|rot|if|pick|skip|\\+|-|\\*|/|%|\\*\\*|<)(?=\\s|$)'
+	}
+
+	{
+		'comment': 'number'
+		'name': 'support.constant.number.clac'
+		'match': '(?<=\\s|^)(-?0|([1-9][0-9]*))(?=\\s|$)'
+	}
+
+	{
+		'comment': 'definition'
+		'name': 'keyword.control.clac'
+		'match': '(?<=\\s|^)(:|;)(?=\\s|$)'
+	}
+
+	{
+		'comment': 'definition'
+		'name': 'support.type.c0'
+		'match': '(?<=:)\\s+([^\\s]+)(?=\\s|$)'
+	}
+]
+

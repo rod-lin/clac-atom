@@ -1,0 +1,5 @@
+'.source.clac':
+	': name ;':
+		'prefix': 'func'
+		'body': ': ${1:name} ;'
+

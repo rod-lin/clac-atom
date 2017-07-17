@@ -1,0 +1,11 @@
+{
+	"name": "language-clac",
+	"description": "Clac language support in Atom",
+	"version": "0.0.1",
+
+	"engines": {
+		"atom": "*"
+	},
+
+	"homepage": "https://github.com/rod-lin/clac-atom"
+}

@@ -1,0 +1,7 @@
+'.source.clac':
+	'editor':
+		'commentStart': '// '
+		'tabLength': 4
+		'softTab': true
+		'preferredLineLength': 80
+
