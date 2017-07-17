@@ -1,5 +1,6 @@
 {
 	"name": "language-clac",
+	"author": "rodlin <im.rod@outlook.com>",
 	"description": "Clac language support in Atom",
 	"version": "0.0.1",
 
@@ -7,5 +8,6 @@
 		"atom": "*"
 	},
 
-	"homepage": "https://github.com/rod-lin/clac-atom"
+	"repository": "https://github.com/rod-lin/language-clac",
+	"homepage": "https://github.com/rod-lin/language-clac"
 }
