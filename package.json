@@ -1,13 +1,11 @@
 {
-	"name": "language-clac",
-	"author": "rodlin <im.rod@outlook.com>",
-	"description": "Clac language support in Atom",
-	"version": "0.0.1",
-
-	"engines": {
-		"atom": "*"
-	},
-
-	"repository": "https://github.com/rod-lin/language-clac",
-	"homepage": "https://github.com/rod-lin/language-clac"
+  "name": "language-clac",
+  "author": "rodlin <im.rod@outlook.com>",
+  "description": "Clac language support in Atom",
+  "version": "0.1.0",
+  "engines": {
+    "atom": "*"
+  },
+  "repository": "https://github.com/rod-lin/language-clac",
+  "homepage": "https://github.com/rod-lin/language-clac"
 }
